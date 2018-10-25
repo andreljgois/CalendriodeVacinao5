@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.HBActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina previne a infecção pelo vírus da hepatite B. É indicada para:\n\n
+ - Para recém-nascidos, o mais precocemente possível, nas primeiras 24 horas, preferencialmente nas primeiras 12 horas, ainda na maternidade ou na primeira visita ao serviço de saúde, até 30 dias de vida;\n\n
+ - Para gestantes em qualquer faixa etária e idade gestacional.\n\n
+ - Para indivíduos integrantes dos grupos vulneráveis, independentemente da faixa etária ou da comprovação da condição de vulnerabilidade:\n\n
+ - População indígena;\n\n
+ - População de assentamentos e acampamentos;\n\n
+ - Trabalhadores de saúde;\n\n
+ - População reclusa em presídios, hospitais psiquiátricos, instituições de reeducação de menores;\n\n
+ - Usuários de drogas injetáveis, inaláveis e pipadas;\n\n
+ - Agentes de segurança atuantes em presídios e delegacias penitenciárias;\n\n
+ - Doadores de sangue;\n\n
+ - Potenciais receptores de múltiplas transfusões de sangue ou politransfundidos;\n\n
+ - Portadores de doenças sexualmente transmissíveis;\n\n
+ - Caminhoneiros;\n\n
+ - Pomunicantes sexuais de pessoas portadoras do vírus da hepatite B;\n\n
+ - Prostitutos e prostitutas;\n\n
+ - Homens e mulheres que mantêm relações sexuais com pessoas do mesmo sexo (HSH e MSM);\n\n
+ - Lésbicas, gays, bissexuais, travestis e transexuais (LGBTT);\n\n
+ - Pessoas que convivem continuamente em domicílio com pessoas portadoras do vírus da hepatite B;\n\n
+ - vítimas de abuso sexual;\n\n
+ - Coletadores de lixo hospitalar e domiciliar;\n\n
+ - Pessoal vinculado às instituições de defesa, segurança e resgate (forças armadas, polícia militar, civil e rodoviária, corpo de bombeiros);\n\n
+ - Vítimas de acidentes com material biológico positivo ou fortemente suspeito de contaminação;\n\n
+ - Manicures, pedicuros e podólogos.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O esquema de administração corresponde, de maneira geral, a três doses, com intervalo de 30 dias entre a primeira e a segunda doses e de seis meses entre a primeira e a terceira doses (0, 1 e 6);\n\n
+• Recém-nascidos devem receber a primeira dose (vacina monovalente) nas primeiras 24 horas de vida, preferencialmente nas primeiras 12 horas, ainda na maternidade ou na primeira visita ao serviço de saúde, até 30 dias de vida. A continuidade do esquema será com a vacina Pentavalente, e correspondera a quatro doses;\n\n
+• Para usuários com 5 anos e mais sem comprovação vacinal, administre três doses da vacina hepatite B, conforme intervalos estabelecidos anteriormente.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O volume varia de acordo com idade ou patologia previa;\n\n
+• 0 a 19 anos de idade, administrar 0,5 ml;\n\n
+• 20 anos ou mais, administrar 1,0 ml;\n\n
+• Situações individuais específicas podem exigir a adoção de esquema e dosagem diferenciados. Em grupos de risco (renais crônicos, politransfundidos, hemofílicos, entre outros) ocorre uma menor produção de anticorpos, condição que os faz necessitar do dobro do volume da dose da vacina hepatite B (recombinante) monovalente, ou seja: 1,0 mL para crianças e adolescentes até 19 anos e 2,0 mL para adultos a partir dos 20 anos;\n\n
+• Em crianças menores de 2 anos no músculo vasto lateral da coxa;\n\n
+• Em maiores de 2 anos utilizar via intramuscular profunda na região deltoide."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Após aberta, a vacina dos fabricantes:\n\n
+ - LG e Serum Institute of Índia (SII) tem validade de 28 dias;\n\n
+ - Butantan tem validade de 15 dias;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada;\n\n
+• O congelamento provoca a perda de potência e/ou forma agregados e/ou aumenta o risco de eventos adversos."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina hepatite B (recombinante) pode ser administrada simultaneamente com outras vacinas, independentemente de qualquer intervalo.\n\n
+• Em caso de esquema vacinal incompleto, não reinicie o esquema, apenas o complete de acordo com a situação encontrada.\n\n\n\n"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

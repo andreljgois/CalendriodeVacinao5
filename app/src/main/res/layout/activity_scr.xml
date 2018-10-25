@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.SCRActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina protege contra o sarampo, a caxumba e a rubéola;\n\n
+• É indicada para vacinação de usuários a partir de 12 meses de idade.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Em casos de registro de anafilaxia após recebimento de dose anterior;\n\n
+• Usuários com imunodeficiência clínica ou laboratorial grave;\n\n
+• Gestação;\n\n
+• A gestante não deve ser vacinada, para evitar a associação entre a vacinação e possíveis complicações da gestação, incluindo aborto espontâneo ou malformação congênita no recém-nascido por outras causas não associadas à vacina;\n\n
+• Caso a gestante seja inadvertidamente vacinada, não está indicada a interrupção da gravidez. A gestante deve ser acompanhada durante o pré-natal e, após o parto, acompanha-se a criança conforme as normas técnicas do Programa Nacional de Imunização.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O esquema básico da vacina é de duas doses nas seguintes situações:\n\n
+ - Para indivíduos de 12 meses a 29 anos de idade: administre duas doses conforme a situação vacinal encontrada;\n\n
+ - A primeira dose (aos 12 meses de idade) deve ser com a vacina tríplice viral e a segunda dose (aos 15 meses de idade) deve ser com a vacina tetra viral, para as crianças que já tenham recebido a 1ª dose da vacina tríplice viral;\n\n
+ - Para as crianças acima de 15 meses de idade não vacinadas, administre a vacina tríplice viral observando o intervalo mínimo de 30 dias entre as doses;\n\n
+ - Considere vacinada a pessoa que comprovar duas doses de vacina com componente de sarampo, caxumba e rubéola;\n\n
+ - Para indivíduos de 30 a 49 anos de idade: administre uma dose conforme a situação vacinal encontrada;\n\n
+ - Considere vacinada a pessoa que comprovar uma dose de vacina com componente de sarampo, caxumba e rubéola ou sarampo e rubéola;\n\n
+• Em situação de bloqueio vacinal em crianças menores de 12 meses, administre uma dose entre 6 meses e 11 meses de idade e mantenha o esquema vacinal;\n\n
+• Mulheres em idade fértil devem evitar a gravidez até um mês após a vacinação.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O volume da vacina tríplice viral a ser administrado é de 0,5 ml;\n\n
+• A vacina é administrada por via subcutânea;\n\n
+• A administração é feita, de preferência, na região do deltoide, na face externa superior do braço, ou na face ântero-lateral externa do antebraço.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Após aberta, a vacina dos fabricantes:\n\n
+ - Sanofi Pasteur (Dose Única) consumo imediato;\n\n
+ - Serum Institute of Índia (SII) tem validade de 6 horas;\n\n
+ - Bio-Manguinhos tem validade de 8 dias;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada, pois o congelamento provoca a perda de potência e/ou forma agregados e aumenta o risco de reações."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Não administre tal vacina simultaneamente com a vacina febre amarela (atenuada), estabelecendo o intervalo mínimo de 30 dias, salvo em situações especiais que impossibilitem manter o intervalo indicado.\n\n\n\n"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cordefundo"
+    tools:context=".vacinas.BCGActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • A vacina é indicada para prevenir as formas graves da tuberculose (miliar e meníngea)."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • Usuários a partir dos 5 anos de idade portadores de HIV, mesmo que assintomáticos e sem sinais de imunodeficiência."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • Dose única, o mais precocemente possível, preferencialmente nas primeiras 12 horas após o nascimento, ainda na maternidade;\n\n
+• Na rotina, a vacina pode ser administrada em crianças até 4 anos, 11 meses e 29 dias;\n\n
+• No caso de contato intradomiciliar de paciente com diagnóstico de hanseníase que não apresenta sinais e sintomas, independentemente de ser paucibacilar (PB) ou multibacilar (MB), o esquema de vacinação deve considerar a história vacinal do contato da seguinte forma:\n\n
+- Contatos intradomiciliares com menos de 1 ano de idade comprovadamente vacinados não necessitam da administração de outra dose de BCG.\n\n
+- Para contatos intradomiciliares com mais de 1 ano de idade, adote o seguinte esquema:\n\n
+ - Contato domiciliar sem cicatriz vacinal ou na incerteza da existência de cicatriz vacinal: administre uma dose de BCG;\n\n
+ - Contato domiciliar comprovadamente vacinado com a primeira dose: administre outra dose de BCG (mantenha o intervalo mínimo de seis meses entre as doses);\n\n
+ - Contato domiciliar com duas doses/cicatrizes: não administre nenhuma dose adicional.
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="  • O volume de cada dose corresponde a 0,1 mL ou 0,05mL variando de acordo com o fabricante;\n\n
+• A vacina é administrada por via intradérmica;\n\n
+• A administração da vacina é feita na região do músculo deltoide, no nível da inserção inferior, na face externa superior do braço direito."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Conservação e Validade "
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • Após aberta, a vacina tem validade de 6 horas;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada;\n\n
+• O congelamento provoca a perda de potência e/ou forma agregados e/ou aumenta o risco de eventos adversos."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • A administração da vacina BCG deve ser adiada quando a criança apresentar peso inferior a 2 kg, devido à escassez do tecido cutâneo (panículo adiposo), e quando apresentar lesões graves de pele;\n\n
+• A presença da cicatriz vacinal é considerada como dose para efeito de registro, independentemente do tempo transcorrido desde a vacinação até o aparecimento da cicatriz;\n\n
+• Para crianças que foram vacinadas com a vacina BCG e que não apresentem cicatriz vacinal após 6 meses, revacine-as apenas uma vez, mesmo que não apresentem cicatriz novamente;\n\n
+• Ao administrar dose adicional em contato de paciente de hanseníase, respeite o intervalo de seis meses da dose anterior;\n\n
+• Em gestante contato de indivíduo portador de hanseníase, a vacinação com BCG deve ser adiada para depois do parto;\n\n
+• A vacina pode ser administrada simultaneamente com as demais vacinas dos calendários de vacinação do Ministério da Saúde;\n\n\n\n "
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

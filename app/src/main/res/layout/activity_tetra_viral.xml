@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.TetraViralActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • É indicada para a imunização ativa de crianças contra sarampo, caxumba, rubéola e varicela.\n\n
+• A introdução da vacina tetra viral no Programa Nacional de Imunização ocorre com a administração de uma dose aos 15 meses de idade, para crianças que já receberam uma dose da vacina tríplice viral."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina tetra viral não deve ser administrada a crianças:\n\n
+• Com hipersensibilidade conhecida a neomicina ou qualquer outro componente da vacina ou que tenham manifestado sinais de hipersensibilidade após administração das vacinas sarampo, caxumba, rubéola e ou varicela;\n\n
+• Com imunodeficiências primárias ou secundárias."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina será disponibilizada na rotina dos serviços públicos de vacinação em substituição à segunda dose da vacina tríplice viral aos 15 meses de idade."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Administrar dose de 0,5 mL, exclusivamente, por via subcutânea, preferencialmente na região deltóide superior do braço ou na região anterolateral superior da coxa. "
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina deve ser armazenada ao abrigo da luz direta e em temperaturas comprovadamente entre +2 a +8ºC;\n\n
+• O prazo de validade do medicamento é de 18 meses a partir da data de fabricação impressa na embalagem do produto;\n\n
+• Cuidados devem ser adotados no transporte e armazenamento, a fim de manter a integridade da vacina;\n\n
+• Homogeneizar a suspensão antes da aplicação;\n\n
+• A vacina não pode ser congelada. "
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • As crianças que sofreram anafilaxia após a ingestão de ovo devem ser vacinados com extrema precaução e receber o tratamento adequado disponível para anafilaxia caso ocorra essa reação;\n\n
+• Em crianças com doença febril aguda grave a vacinação deve ser adiada. No entanto, a presença de infecção leve, como resfriado, não deve ser motivo para o adiamento da vacinação;\n\n
+• A vacina tetra viral pode ser administrada simultaneamente com outras vacinas do Programa Nacional de Imunização, exceto a vacina febre amarela que deve ser administrada com intervalo mínimo de 30 dias;\n\n
+• Devem ser utilizadas agulhas, seringas e sítios de administração diferentes.\n\n\n\n
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

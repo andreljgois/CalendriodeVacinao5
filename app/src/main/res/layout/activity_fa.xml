@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.FAActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Está indicada para prevenir contra a febre amarela em residentes ou viajantes que se deslocam para as áreas com recomendação de vacinação (ACRV) e países com risco para a doença, a partir dos 9 meses de idade, conforme Calendário Nacional de Vacinação;\n\n
+• A vacina também é indicada para profissionais que trabalham manipulando o vírus da febre amarela."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina Febre Amarela está contraindicada para crianças menores de 6 meses de idade;\n\n
+• Para o imunodeprimido grave, independentemente do risco de exposição;\n\n
+• Portadores de doenças autoimunes (consulte o Manual de EAPV);\n\n
+• A vacina febre amarela não está indicada para gestantes e mulheres que estejam amamentando, devendo a vacinação ser adiada até a criança completar 6 meses de idade. Na impossibilidade de se adiar a vacinação, deve-se avaliar o benefício pelo risco;\n\n
+• Em caso de mulheres que estejam amamentando e receberam a vacina, o aleitamento materno deve ser suspenso preferencialmente por 28 dias após a vacinação (com um mínimo de 15 dias);\n\n
+• Esta vacina também não está indicada para indivíduos com doenças autoimunes ou doença neurológica;\n\n
+• Pessoas com idade igual a 60 anos ou mais. No entanto, em situação de risco de se contrair a doença, deve-se avaliar o benefício da vacinação;
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Dose única a partir dos 9 meses de idade."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O volume da dose a ser administrada é de 0,5 ml;\n\n
+• A vacina é administrada por via subcutânea;\n\n
+• A administração é realizada, de preferência, na região do deltoide, na face externa superior do braço."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade "
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Após aberta, a vacina tem validade de 6 horas;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada, pois o congelamento provoca a perda de potência e/ou forma agregados, aumentando o risco de eventos adversos;"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Para os viajantes com deslocamento para as ACRV, a vacina deve ser administrada com antecedência mínima de 10 dias da data da viagem;\n\n
+• A informação atualizada sobre as áreas com indicação da vacinação, bem como vacinação para viajantes, estão disponíveis no site do Ministério da Saúde:\n\n
+• Esta vacina se insere no conjunto das vacinas recomendadas segundo o Regulamento Sanitário Internacional (RSI/2005), que prevê a possibilidade de exigência do Certificado Internacional de Vacinação e Profilaxia (CIVP), documento que comprova a vacinação contra a febre amarela e/ou outras doenças;\n\n
+• As anotações feitas pelo serviço de saúde no comprovante de vacinação (tais como: data da administração, lote, validade da vacina, assinatura legível e carimbo do vacinador) são imprescindíveis para a emissão do Certificado Internacional de Vacinação e Profilaxia (CIVP).\n\n
+• Em situação de emergência epidemiológica:\n\n
+ - No caso de vacinação de crianças, a dose inicial deve ser antecipada para 6 meses de idade, sendo esta dose considerada válida para a rotina de vacinação da criança;\n\n
+• Não administre tal vacina simultaneamente com a vacina tríplice viral (sarampo, caxumba e rubéola) e/ou tetra viral (sarampo, caxumba, rubéola e varicela) e/ou varicela, estabelecendo o intervalo mínimo de 30 dias, salvo em situações especiais que impossibilitem manter o intervalo indicado;\n\n\n\n"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

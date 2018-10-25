@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.RotavirusActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • É indicada para a prevenção de gastroenterites causadas por rotavírus dos sorotipos G1 em crianças menores de 1 ano de idade. Embora seja monovalente, a vacina oferece proteção cruzada contra outros sorotipos de rotavírus que não sejam G1 (G2, G3, G4, G9)."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Está contraindicada nas situações gerais referidas nesta Parte IV do Manual, no tópico 2;\n\n
+• Sua principal contraindicação é a administração fora da faixa etária preconizada;\n\n
+• Na presença de imunodepressão severa;\n\n
+• Na vigência do uso de corticosteroides em doses imunossupressoras ou quimioterápicos;\n\n
+• Para crianças que tenham histórico de invaginação intestinal ou com malformação congênita não corrigida do trato gastrointestinal.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O esquema corresponde a duas doses, administradas aos 2 e 4 meses de idade;\n\n
+• A primeira dose pode ser administrada a partir de 1 mês e 15 dias até 3 meses e 15 dias. A segunda dose pode ser administrada a partir de 3 meses e 15 dias até 7 meses e 29 dias;\n\n
+• Mantenha intervalo mínimo de 30 dias entre as doses;\n\n
+• Se a criança regurgitar, cuspir ou vomitar após a vacinação ou se a vacina for administrada fora das faixas etárias preconizadas, não repita a dose. Nestes casos, considere a dose válida;\n\n
+• Recomenda-se completar o esquema da vacina VORH do mesmo laboratório produtor.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • O volume a ser administrado é 1,5 ml;\n\n
+• A vacina é administrada exclusivamente por via oral."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Por se tratar de frasco com apenas uma dose, deverá ser utilizada imediatamente após a sua abertura;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada;\n\n
+• O congelamento provoca a perda de potência e/ou forma agregados e/ou aumenta o risco de eventos adversos."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina rotavírus humano não pode ser injetada;\n\n\n\n"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

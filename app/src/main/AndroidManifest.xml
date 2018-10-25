@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desenvolvimentoandroid.andregois.calendriodevacinao5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SobreActivity" />
+        <activity android:name=".calendario.Zeroa6Activity" />
+        <activity android:name=".calendario.Setea19Activity" />
+        <activity android:name=".calendario.Vintea59Activity" />
+        <activity android:name=".calendario.SessentaActivity" />
+        <activity android:name=".calendario.GestanteActivity" />
+        <activity android:name=".vacinas.BCGActivity" />
+        <activity android:name=".vacinas.DTActivity" />
+        <activity android:name=".vacinas.DTPActivity" />
+        <activity android:name=".vacinas.FAActivity" />
+        <activity android:name=".vacinas.DTPaActivity" />
+        <activity android:name=".vacinas.HAActivity" />
+        <activity android:name=".vacinas.HBActivity" />
+        <activity android:name=".vacinas.HPVActivity" />
+        <activity android:name=".vacinas.InfluenzaActivity" />
+        <activity android:name=".vacinas.MeningoActivity" />
+        <activity android:name=".vacinas.PentaActivity" />
+        <activity android:name=".vacinas.Pneumo10Activity" />
+        <activity android:name=".vacinas.TetraViralActivity" />
+        <activity android:name=".vacinas.SCRActivity" />
+        <activity android:name=".vacinas.VaricelaActivity" />
+        <activity android:name=".vacinas.VIPActivity" />
+        <activity android:name=".vacinas.VOPActivity" />
+        <activity android:name=".vacinas.RotavirusActivity"></activity>
+    </application>
+
+</manifest>

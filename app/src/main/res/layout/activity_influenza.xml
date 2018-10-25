@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.InfluenzaActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • É indicada para proteger contra o vírus da influenza e contra as complicações da doença, principalmente as pneumonias bacterianas secundárias."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text="  • Hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina.\n\n
+ - Para menores de 6 meses de idade;\n\n
+ - Para indivíduos que, após o recebimento de qualquer dose anterior, apresentaram hipersensibilidade imediata (reação anafilática).
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina é administrada anualmente para grupos elegíveis;\n\n
+• O número de doses e o volume são estabelecidos de acordo com a faixa etária da primovacinação para indivíduos a partir dos 6 meses de idade, conforme mostrado abaixo:\n\n
+- 6 meses a 2 anos, administrar 2 doses de 0,25ml, com intervalo mínimo de 3 semanas, sendo o padrão 30 dias;\n\n
+- 3 a 8 anos, administrar 2 doses de 0,5ml, com intervalo mínimo de 3 semanas, sendo o padrão 30 dias;\n\n
+- 9 anos ou mais, administrar 1 dose de 0,5 ml;\n\n
+• Crianças de 6 meses a menores de 9 anos que receberam uma ou duas doses da vacina influenza sazonal no ano anterior deve receber apenas uma dose;\n\n
+• A vacinação está indicada para toda a população indígena a partir de 6 meses de idade.
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Dose de 0,25 ml para menores de 3 anos e 0,5 ml a partir dos 3 anos de idade;\n\n
+•  A vacina é administrada por via intramuscular profunda;\n\n
+• Administre a vacina em crianças menores de 2 anos no músculo vasto lateral da coxa e, nos maiores de 2 anos, no deltoide."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Após aberta, a vacina tem validade de 8 dias;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada, pois o congelamento provoca a perda de potência e/ou forma agregados e aumenta o risco de reações."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Em caso de ocorrência da síndrome de Guillian-Barré (SGB) no período de até 6 semanas após a dose anterior, recomenda-se realizar avaliação médica criteriosa sobre o benefício e o risco da vacinação;\n\n
+• Em indivíduos com história de reação anafilática prévia ou alergia grave relacionada ao ovo de galinha e aos seus derivados, a vacinação deve ser feita em ambiente hospitalar, após avaliação médica.\n\n\n\n
+"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

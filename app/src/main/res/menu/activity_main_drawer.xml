@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Calendário Nacional">
+        <menu>
+            <item
+                android:id="@+id/nav_crianças0a7"
+                android:title="0 a 6 anos" />
+            <item
+                android:id="@+id/nav_7a19"
+                android:title="7 a 19 anos" />
+            <item
+                android:id="@+id/nav_20a59"
+                android:title="20 a 59 anos" />
+            <item
+                android:id="@+id/nav_60oumais"
+                android:title="60 anos ou mais" />
+            <item
+                android:id="@+id/nav_gestantes"
+                android:title="Gestantes" />
+        </menu>
+    </item>
+
+    <item android:title="Vacinas e Esquemas">
+        <menu>
+            <item
+                android:id="@+id/nav_bcg"
+                android:title="BCG" />
+            <item
+                android:id="@+id/nav_dt"
+                android:title="dT - Dupla Adulto ou Tétano" />
+            <item
+                android:id="@+id/nav_dtp"
+                android:title="DTP - Tríplice Bacteriana" />
+            <item
+                android:id="@+id/nav_dtpa"
+                android:title="dTpa" />
+            <item
+                android:id="@+id/nav_fa"
+                android:title="Febre Amarela" />
+            <item
+                android:id="@+id/nav_hepa"
+                android:title="Hepatite A" />
+            <item
+                android:id="@+id/nav_hepb"
+                android:title="Hepatite B" />
+            <item
+                android:id="@+id/nav_hpv"
+                android:title="HPV" />
+            <item
+                android:id="@+id/nav_influenza"
+                android:title="Influenza" />
+            <item
+                android:id="@+id/nav_meningo"
+                android:title="Meningocócica C" />
+            <item
+                android:id="@+id/nav_penta"
+                android:title="Pentavalente" />
+            <item
+                android:id="@+id/nav_penumo"
+                android:title="Pneumocócica 10" />
+            <item
+                android:id="@+id/nav_tetraviral"
+                android:title="Tetra Viral" />
+            <item
+                android:id="@+id/nav_src"
+                android:title="Tríplice Viral" />
+            <item
+                android:id="@+id/nav_varicela"
+                android:title="Varicela" />
+            <item
+                android:id="@+id/nav_vip"
+                android:title="VIP - Poliomielite Inativada" />
+            <item
+                android:id="@+id/nav_vop"
+                android:title="VOP - Poliomielite Oral" />
+            <item
+                android:id="@+id/nav_vorh"
+                android:title="Rotavírus" />
+        </menu>
+    </item>
+
+    <item android:title="Informações e contato">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:title="Sobre" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="Entre em contato" />
+            <item
+                android:id="@+id/nav_sair"
+                android:title="Sair" />
+
+        </menu>
+    </item>
+
+</menu>

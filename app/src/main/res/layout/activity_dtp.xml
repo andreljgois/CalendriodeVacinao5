@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.DTPActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f9f1d0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • A vacina protege contra a difteria, o tétano e a coqueluche;\n\n
+• É indicada para a vacinação de crianças menores de 7 anos de idade como dose de reforço do esquema básico da vacina penta."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Está contraindicada nas situações gerais referidas nesta Parte IV do Manual, no tópico 2;\n\n
+• A vacina também não deve ser administrada quando a criança apresentar quadro neurológico em atividade ou quando, após dose anterior de vacina com estes componentes, a criança registrar qualquer das seguintes manifestações:\n\n
+ - Convulsões até 72 horas após a administração da vacina;\n\n
+ - Colapso circulatório, com estado de choque ou com episódio hipotônico-hiporresponsivo (EHH), até 48 horas após a administração da vacina;\n\n
+ - Encefalopatia nos primeiros sete dias após a administração da vacina;\n\n
+ - Usuários a partir de 7 anos de idade;\n\n
+•  Quando a vacina for contraindicada, devido à ocorrência de convulsões ou colapso circulatório, administre a vacina adsorvida difteria, tétano e pertussis (acelular) conforme orientação dada no Manual do CRIE;\n\n
+• Em casos de encefalopatia, está contraindicada qualquer dose subsequente com vacinas com componente pertussis, sendo indicada, nestes casos, a vacina adsorvida difteria e tétano infantil (dupla infantil)."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" •  O volume da vacina a ser administrado é de 0,5 ml;\n\n
+• A vacina DTP é indicada para os reforços do esquema básico de vacinação com os componentes diftérico, tetânico e pertussis;\n\n
+• O primeiro reforço deve ser administrado aos 15 meses e, o segundo, aos 4 anos de idade;\n\n
+• A idade máxima para administrar as vacinas com o componente pertussis de células inteiras é 6 anos, 11 meses e 29 dias;\n\n
+• Ao indicar a vacina DTP, considere as doses administradas anteriormente e não reinicie o esquema;\n\n
+• Se o esquema básico não for iniciado ou completado até a idade de 6 anos, 11 meses e 29 dias, as doses necessárias serão administradas com a vacina adsorvida difteria e tétano adulto (dT);\n\n
+• Em crianças entre 4 e 6 anos, 11 meses e 29 dias de idade sem reforço, administre apenas um reforço;\n\n
+• Nos comunicantes domiciliares e escolares de casos de difteria ou coqueluche menores de 7 anos de idade não vacinados, com esquema incompleto ou com situação vacinal desconhecida, atualize o esquema;\n\n
+• No caso de doente com diagnóstico de difteria, proceda conforme norma específica relativa à vacinação depois da alta."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text="  •  O volume da vacina a ser administrado é de 0,5 ml;\n\n
+•  A vacina é administrada por via intramuscular profunda;\n\n
+• Administre a vacina em crianças menores de 2 anos no músculo vasto lateral da coxa e, nos maiores de 2 anos, no deltoide."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Após aberta, a vacina dos fabricantes:\n\n
+ - Serum Institute of Índia (SII) e Biofarma tem validade de 4 semanas;\n\n
+ - Butantan tem validade de 15 dias;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada, pois o congelamento provoca a perda de potência e/ou forma agregados e aumenta o risco de reações."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" •  Nunca reinicie o esquema se houver comprovação de histórico vacinal;\n\n\n\n "
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

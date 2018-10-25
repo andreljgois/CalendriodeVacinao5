@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vacinas.DTActivity"
+    android:background="@color/cordefundo">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Indicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • É indicada para prevenir contra o tétano e a difteria;\n\n
+• A vacinação de mulheres em idade fértil (MIF) (dos 10 aos 49 anos), gestantes e não gestantes é feita também para a prevenção contra o tétano neonatal.
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Contraindicação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • Hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Esquema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • A vacina dT é administrada em maiores de 7 anos de idade para os reforços ou usuários com esquema incompleto ou não vacinados:\n\n
+ - Com esquema vacinal completo: administre uma dose a cada 10 anos;\n\n
+ - Com esquema incompleto: complete o esquema;\n\n
+ - Sem comprovação vacinal: administre três doses;\n\n
+• O intervalo entre as doses é de 60 dias, com um mínimo de 30 dias;\n\n
+• Em todos os casos, após completar o esquema, é necessário administrar uma dose de reforço a cada 10 anos;\n\n
+• Mulheres grávidas: administre a vacina considerando o seu histórico vacinal para difteria e tétano;\n\n
+• Em gestante com comprovação vacinal de três doses de vacina com componente tetânico, sendo a última dose feita há mais de 5 anos, administre um reforço;\n\n
+• A última dose ou reforço deve ser administrado pelo menos 20 dias antes da data provável do parto;\n\n
+• A vacinação da gestante é realizada para a prevenção contra o tétano no recém-nascido e para a proteção da gestante."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:gravity="center"
+                android:text="Volume e Via de administração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" • Dose de 0,5 mL;\n\n
+• Via intramuscular profunda na região deltoide."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Conservação e Validade"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" • Após aberta, a vacina dos fabricantes:\n\n
+ - Biological, Serum Institute of Índia (SII) e Intervax tem validade de 4 semanas;\n\n
+ - Butantan tem validade de 15 dias;\n\n
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada, pois o congelamento provoca a perda de potência e/ou forma agregados e aumenta o risco de reações;"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Observações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/botaotexto"
+                android:text=" •  Nunca reinicie o esquema se houver comprovação de histórico vacinal;\n\n\n\n "
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
