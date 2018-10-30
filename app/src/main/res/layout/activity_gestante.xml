@@ -52,7 +52,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT e/ou dTpa (1)\n\n
 • Hepatite B (2)\n\n
-• Influenza - anualmente\n\n"
+• Influenza - anualmente"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView1" />
