@@ -50,10 +50,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Dupla Adulto (dT) – Reforço a cada 10 anos, ou até 3 doses a depender da situação vacinal\n\n
-• Hepatite B - 3 doses, de acordo com a situação vacinal\n\n
-• Influenza - Durante a gestação, ou até 45 dias após o parto\n\n
-• dTpa - Uma dose a cada gestação a partir da 20ª semana de gestação até 45 dias após o parto"
+                android:text=" • Dupla Adulto - dT e/ou dTpa (1)\n\n
+• Hepatite B (2)\n\n
+• Influenza - anualmente\n\n"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView1" />
@@ -79,10 +78,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A administração do reforço da vacina dT deve respeitar o intervalo mínimo de 10 anos, exceto em casos de gestação, acidentes e/ou procedimentos cirúrgicos, onde o intervalo será reduzido para 5 anos;\n\n
-• A administração das vacinas dT e Hepatite B, estão condicionadas a apresentação do Cartão de Vacinação, onde a falta do mesmo implicará na iniciação de um novo esquema vacinal;\n\n
-• Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema;\n\n
-• A vacina dTpa poderá substituir o reforço da vacina dT, ou ser inclusa entre as doses do esquema de vacinação contra o tétano (dT).\n\n\n\n"
+                android:text=" • Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema.\n\n
+• A vacina dTpa deverá substituir uma das doses do esquema de vacinação contra o tétano;\n\n
+• A vacina dTpa deverá ser administrada entre a 20ª semana de gestação e 45 dias após o parto;\n\n
+• (1). Dupla Adulto e/ou dTpa. Se houver comprovação de doses anteriores:\n\n
+- 3 doses. Deverá ser administrado 1 dose de dTpa. E agendar um reforço da vacina dT para 10 anos.\n\n
+- 2 doses. Deverá ser administrado 1 dose de dTpa (respeitar intervalo mínimo de 30 dias da última dose encontrada no cartão de vacinação) e agendar um reforço da vacina dT para 10 anos.\n\n
+- 1 dose. Deverá ser administrado a 2ª dose (observar idade gestacional para escolha da vacina a ser aplicada, e respeitar intervalo mínimo de 30 dias da última dose encontrada no cartão de vacinação), e agendar a próxima vacina para 60 dias. Após a administração da 3ª dose agendar nova vacina para 10 anos.\n\n
+ Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo o intervalo mínimo de 30 dias e o recomendado pelo PNI 60 dias entre as doses.\n\n
+• (2). Hepatite B, se houver comprovação doses anteriores:\n\n
+- 3 doses. Considerar vacinado.\n\n
+- 2 doses. Se a última dose administrada tiver 5 meses ou mais, administrar 1 dose.\n\n
+- 1 dose. Se a última dose tiver mais de 30 dias, deverá ser administrado 1 dose e agendar a próxima para no mínimo 6 meses após a primeira. Caso a dose encontrada no cartão tenha mais de 6 meses, o intervalo entre a dose atual e a próxima será de 60 dias.\n\n
+ Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo a primeira administrada no dia, a segunda 30 dias após a primeira e a terceira 6 meses após a primeira.\n\n\n\n"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />

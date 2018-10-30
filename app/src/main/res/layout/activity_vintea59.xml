@@ -49,10 +49,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Dupla Adulto (dT) – Reforço a cada 10 anos, ou até 3 doses a depender da situação vacinal\n\n
-• Hepatite B - 3 doses, de acordo com a situação vacinal\n\n
-• Tríplice viral (SRC) – se nunca tiver sido vacinado: 2 doses (20 a 29 anos) e 1 dose (30 a 49 anos);\n\n
-• Febre Amarela – 1 dose se nunca tiver sido vacinado"
+                android:text=" • Dupla Adulto - dT (1)\n\n
+• Hepatite B (2)\n\n
+• Tríplice viral - SCR (3)\n\n
+• Febre Amarela (4)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -78,10 +78,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, M.M.R., T.V. ou T.Viral;\n\n
-• A administração do reforço da vacina dT deve respeitar o intervalo mínimo de 10 anos, exceto em casos de gestação, acidentes e/ou procedimentos cirúrgicos, onde o intervalo será reduzido para 5 anos;\n\n
-• A administração das vacinas dT, Hepatite B e Triplíce Viral (SRC), estão condicionadas a apresentação do Cartão de Vacinação, onde a falta do mesmo implicará na iniciação de um novo esquema vacinal;\n\n
-• Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema.\n\n\n\n"
+                android:text=" • Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema.\n\n
+• Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, M.M.R., T.V. ou T.Viral;\n\n
+• (1). Dupla Adulto, se houver comprovação de doses anteriores:\n\n
+- 3 doses. Deverá ser administrado 1 dose de reforço após 10 anos da última dose, e agengar novo reforço para 10 anos.\n\n
+- 2 doses. Deverá ser administrado 1 dose (respeitar intervalo mínimo de 30 dias da última dose encontrada no cartão de vacinação) e agendar a próxima vacina para 10 anos.\n\n
+- 1 dose. Deverá ser administrado a 2ª dose (respeitar intervalo mínimo de 30 dias da última dose encontrada no cartão de vacinação) e agendar a próxima para 60 dias. Após a administração da 3ª dose agendar nova vacina para 10 anos.\n\n
+ Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo o intervalo recomendado entre cada dose 60 dias.\n\n
+ ATENÇÃO: Deverá ser antecipado o reforço da vacina Dupla Adulto em casos de acidente, procedimentos cirúrgicos e gestação. Nesse caso o reforço se dará após 5 anos da última dose.\n\n
+• (2). Hepatite B, se houver comprovação doses anteriores:\n\n
+- 3 doses. Considerar vacinado.\n\n
+- 2 doses. Se a última dose administrada tiver 5 meses ou mais, administrar 1 dose.\n\n
+- 1 dose. Se a última dose tiver mais de 30 dias, deverá ser administrado 1 dose e agendar a próxima para no mínimo 6 meses após a primeira. Caso a dose encontrada no cartão tenha mais de 6 meses, o intervalo entre a dose atual e a próxima será de 60 dias.\n\n
+ Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo a primeira administrada no dia, a segunda 30 dias após a primeira e a terceira 6 meses após a primeira.\n\n
+• (3). Tríplice Viral, se houver comprovação de doses anteriores:\n\n
+ Entre 20 ano e 29 anos de idade:\n\n
+- 2 doses ou mais, não vacinar.\n\n
+- 1 dose, administrar mais 1 dose. Respeitando intervalo mínimo de 30 dias da dose anterior.\n\n
+ Se não houver comprovação de vacinas anteriores, administra 1ª dose e agendar a 2ª para 60 dias.\n\n
+ Entre 30 anos e 49 anos:\n\n
+- 1 dose ou mais, não vacinar.\n\n
+ Se não houver comprovação de vacinas anteriores, administra uma única dose.\n\n
+ A partir de 50 anos de idade, não vacinar.\n\n
+ ATENÇÃO: Deverá ser respeitado o intervalo mínimo de 30 dias entre as vacinas Tríplice Víral e Febre Amarela.\n\n
+• (4). A administração da vacina Febre Amarela, está condicionada a região de residência do usuário;\n\n\n\n
+"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />

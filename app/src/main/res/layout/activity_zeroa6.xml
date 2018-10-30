@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • BCG - Dose única\n\n
+                android:text=" • BCG - Dose única (1)\n\n
 • Hepatite B - Dose única"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -201,7 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Febre Amarela - Dose única"
+                android:text=" • Febre Amarela - Dose única (2)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -254,7 +254,7 @@
                 android:text=" • DTP (Triplici bacteriana) - 1° Reforço\n\n
 • Vacina Oral Poliomielite (VOP) - 1° Reforço\n\n
 • Hepatite A – Dose única\n\n
-• Tetra viral ou tríplice viral + varicela - Uma dose"
+• Tetra viral - Uma dose (3)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -306,10 +306,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A administração da vacina Febre Amarela aos 9 meses de idade, está condicionada a região de residência do usuário;\n\n
-• Devera ser respeitado o intervalo mínimo de 60 dias entre as doses das vacinas: Pentavalente, Pneumocócica 10, VIP, Rotavírus e Meningocócica C;\n\n
+                android:text=" • Devera ser respeitado o intervalo mínimo de 30 dias entre as doses das vacinas: Pentavalente, Pneumocócica 10, VIP, Rotavírus e Meningocócica C.
+ Porém, o intervalo preconizado pelo PNI, é de 60 dias entre as doses das mesmas vacinas;\n\n
 • Para administração do reforço da vacina DTP, deverá ser respeitado o intervalo mínimo de 6 meses da última dose da vacina Pentavalente;\n\n
-• Aos 15 meses será administrado um dose da vacina tetra viral, que poderá ser substituída pelas vacinas triplíce viral (SRC) + Varicela.\n\n\n\n"
+• (1). Crianças com peso menor que 2 kg não devem receber a vacina BCG;\n\n
+• (2). A administração da vacina Febre Amarela, está condicionada a região de residência do usuário;\n\n
+• (3). A vacina Tetra Viral, poderá ser substituída pelas vacinas Tríplice Viral + Varicela Atenuada;\n\n\n\n
+"
                 android:textColor="@android:color/black" />
 
 
