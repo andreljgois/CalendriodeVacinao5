@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -38,7 +38,6 @@
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
-
 
             <TextView
                 android:id="@+id/textView6"
@@ -176,15 +175,12 @@
                 android:layout_marginStart="8dp"
                 android:text=" • A administração da vacina BCG deve ser adiada quando a criança apresentar peso inferior a 2 kg, devido à escassez do tecido cutâneo (panículo adiposo), e quando apresentar lesões graves de pele;\n\n
 • A presença da cicatriz vacinal é considerada como dose para efeito de registro, independentemente do tempo transcorrido desde a vacinação até o aparecimento da cicatriz;\n\n
-• Para crianças que foram vacinadas com a vacina BCG e que não apresentem cicatriz vacinal após 6 meses, revacine-as apenas uma vez, mesmo que não apresentem cicatriz novamente;\n\n
 • Ao administrar dose adicional em contato de paciente de hanseníase, respeite o intervalo de seis meses da dose anterior;\n\n
 • Em gestante contato de indivíduo portador de hanseníase, a vacinação com BCG deve ser adiada para depois do parto;\n\n
-• A vacina pode ser administrada simultaneamente com as demais vacinas dos calendários de vacinação do Ministério da Saúde;\n\n\n\n "
+• A vacina pode ser administrada simultaneamente com as demais vacinas dos calendários de vacinação do Ministério da Saúde;\n\n
+** De acordo com a NOTA INFORMATIVA Nº 10/2019 do Ministério da Saúde, “o Programa Nacional de Imunização (PNI) NÃO indica a revacinação com BCG em crianças que não desenvolveram cicatriz após a vacinação indicada ao nascimento”.\n\n\n\n"
                 android:textColor="@android:color/black" />
-
         </LinearLayout>
-
-
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.ConstraintLayout>

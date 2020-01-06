@@ -59,8 +59,11 @@
                 android:id="@+id/nav_penta"
                 android:title="Pentavalente" />
             <item
-                android:id="@+id/nav_penumo"
+                android:id="@+id/nav_penumo10"
                 android:title="Pneumocócica 10" />
+            <item
+                android:id="@+id/nav_penumo23"
+                android:title="Pneumocócica 23" />
             <item
                 android:id="@+id/nav_tetraviral"
                 android:title="Tetra Viral" />
@@ -79,6 +82,9 @@
             <item
                 android:id="@+id/nav_vorh"
                 android:title="Rotavírus" />
+            <item
+                android:id="@+id/nav_observacoesGerais"
+                android:title="Observações Gerais" />
         </menu>
     </item>
 
@@ -87,6 +93,9 @@
             <item
                 android:id="@+id/nav_sobre"
                 android:title="Sobre" />
+            <item
+                android:id="@+id/nav_classificar"
+                android:title="Classificar" />
             <item
                 android:id="@+id/nav_feedback"
                 android:title="Entre em contato" />

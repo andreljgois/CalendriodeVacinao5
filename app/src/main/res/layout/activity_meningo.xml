@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -85,9 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • O esquema corresponde a duas doses, administradas aos 3 e 5 meses de idade, com intervalo de 60 dias entre as doses e mínimo de 30 dias;\n\n
-• O reforço deve ser feito entre 12 e 15 meses (preferencialmente aos 15 meses);\n\n
-• Em crianças entre 12 meses e 4 anos de idade sem comprovação vacinal ou com esquema incompleto, administre uma única dose;\n\n"
+                android:text=" • O esquema corresponde a duas doses e dois reforços, administradas aos 3 e 5 meses de idade, e 1 ano e entre 10 e 14 anos respectivamente. O intervalo ideal entre as doses iniciais deve ser de 60 dias, já o intervalo minímo é de 30 dias entre as doses;\n\n
+• Em crianças entre 12 meses e 4 anos de idade sem comprovação vacinal ou com esquema incompleto, administre uma única dose;"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -140,4 +139,4 @@
         </LinearLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.ConstraintLayout>

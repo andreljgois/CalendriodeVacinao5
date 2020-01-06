@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A vacina deve ser administrada aos 2, 4 e 6 meses de idade, com intervalo de 60 dias entre as doses e mínimo de 30 dias, em crianças menores de 1 ano de idade;\n\n
+                android:text=" • A vacina deve ser administrada aos 2 e 4 meses de idade, com intervalo de 60 dias entre as doses e mínimo de 30 dias, em crianças menores de 1 ano de idade;\n\n
 • O reforço deve ser feito entre 12 e 15 meses, preferencialmente aos 12 meses, considerando-se o intervalo de 6 meses após o esquema básico;\n\n
 • Administre o reforço com intervalo mínimo de 60 dias após a última dose em crianças que iniciam o esquema básico após 6 meses de idade;\n\n
 • Em crianças entre 12 e 23 meses de idade sem comprovação vacinal ou com esquema incompleto, administre uma única dose;\n\n
@@ -142,4 +142,4 @@
     </ScrollView>
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.ConstraintLayout>

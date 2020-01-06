@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
@@ -49,7 +48,8 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT (1)\n\n
 • Hepatite B (2)\n\n
-• Influenza - anualmente"
+• Influenza - anualmente\n\n
+• Pneumocócica 23 (3)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -66,7 +66,7 @@
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textView62" />
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -84,16 +84,14 @@
 - 3 doses. Considerar vacinado.\n\n
 - 2 doses. Se a última dose administrada tiver 5 meses ou mais, administrar 1 dose.\n\n
 - 1 dose. Se a última dose tiver mais de 30 dias, deverá ser administrado 1 dose e agendar a próxima para no mínimo 6 meses após a primeira. Caso a dose encontrada no cartão tenha mais de 6 meses, o intervalo entre a dose atual e a próxima será de 60 dias.\n\n
- Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo a primeira administrada no dia, a segunda 30 dias após a primeira e a terceira 6 meses após a primeira.\n\n\n\n
-"
+ Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo a primeira administrada no dia, a segunda 30 dias após a primeira e a terceira 6 meses após a primeira.\n\n
+• (3). Pneumocócica 23, está indicada para usuários com 60 anos ou mais não vacinados, que vivem acamados e/ou em instituições fechadas (como casas geriátricas, hospitais, unidades de acolhimento/asilos e casas de repouso).\n\n
+- Administre, por uma única vez, uma dose adicional 5 anos após a dose inicial.\n\n\n\n"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
-
         </LinearLayout>
-
-
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.ConstraintLayout>

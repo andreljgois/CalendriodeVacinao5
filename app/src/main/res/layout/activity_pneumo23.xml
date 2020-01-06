@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vacinas.HPVActivity"
-    android:background="@color/cordefundo">
+    android:background="#f9f1d0"
+    tools:context=".vacinas.Pneumo23Activity">
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="8dp"
         android:background="#f9f1d0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A vacina HPV é indicada para a imunização ativa contra os genótipos de baixo risco HPV 6 e 11 e de alto risco HPV 16 e 18. "
+                android:text=" • A vacina está indicada para a proteção contra infecções invasivas pelo pneumococo na população indígena e em usuários de 60 anos ou mais não vacinados, que vivem acamados e/ou em instituições fechadas (como casas geriátricas, hospitais, unidades de acolhimento/asilos e casas de repouso).\n\n
+• Está vacina também está indicada para usuários com condições clínicas especiais nos CRIE."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -64,13 +65,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A vacina HPV é contraindicada e, portanto, não deve ser administrada nas adolescentes:\n\n
-• Com hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina;\n\n
-• Com história de hipersensibilidade imediata grave a levedura; ou,\n\n
-• Que desenvolveram sintomas indicativos de hipersensibilidade grave após receber uma dose da vacina HPV.\n\n
-• A vacina não é indicada em gestantes, uma vez que não há estudos conclusivos em mulheres grávidas até o presente momento;\n\n
-• Se a menina engravidar após o início do esquema vacinal, as doses subsequentes deverão ser adiadas até o período pós-parto;\n\n
-• Caso a vacina seja administrada inadvertidamente durante a gravidez, nenhuma intervenção adicional é necessária, somente o acompanhamento pré-natal adequado."
+                android:text=" • Está contraindicada para crianças menores de 2 anos de idade;\n\n
+• Hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -90,10 +86,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Corresponde a 2 doses, com intervalo de 6 meses entre elas;\n\n
-• Meninas com idade entre 9 e 14 anos\n\n
-• Meninos com idade entre 11 e 14 anos
-"
+                android:text=" • Administrar uma dose durante a Campanha Nacional de Vacinação contra a Influenza nos usuários com 60 anos e mais não vacinados que vivem acamados e/ou em instituições fechadas (como casas geriátricas, hospitais, unidades de acolhimento/asilos e casas de repouso);\n\n
+• Administrar, por uma única vez, uma dose adicional 5 anos após a dose inicial;\n\n
+•Para os povos indígenas, administre uma dose a partir de 2 anos de idade sem comprovação vacinal de vacinas pneumocócicas conjugadas. A partir dos 60 anos de idade, administre uma única dose adicional, respeitando o intervalo mínimo de 5 anos da dose inicial."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -113,8 +108,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • A vacina HPV deve ser administrada exclusivamente por via intramuscular, preferencialmente na região deltoide, na parte superior do braço, ou na região anterolateral superior da coxa;\n\n
-• A vacina não pode ser injetada por via intravenosa, por via subcutânea ou por via intradérmica."
+                android:text=" • O volume a ser administrado é de 0,5 ml;\n\n
+• A via de administração recomendada é a intramuscular, podendo eventualmente ser feita por via subcutânea."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -135,38 +130,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Por se tratar de frasco com apenas uma dose, deverá ser utilizada imediatamente após a sua abertura;\n\n
-• A vacina deve ser armazenada ao abrigo da luz direta e em temperaturas comprovadamente entre +2 a +8ºC;\n\n
-• Cuidados devem ser adotados no transporte e armazenamento, a fim de manter a integridade da vacina;\n\n
-• A vacina não pode ser congelada."
+• A vacina é conservada entre +2ºC e +8ºC (sendo ideal +5ºC), não podendo ser congelada;\n\n
+• O congelamento provoca a perda de potência e/ou forma agregados e/ou aumenta o risco de eventos adversos.\n\n\n\n"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_margin="@dimen/botaotexto"
-                android:gravity="center"
-                android:text="Observações"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/botaotexto"
-                android:text=" • Doença febril aguda grave: a administração da vacina HPV deve ser adiada em caso de doença febril aguda grave. Contudo, a presença de uma infeção leve, como é o caso de resfriado ou de febre baixa, não constitui motivo para o adiamento da vacinação;\n\n
-• Doenças agudas intensas ou moderadas: a administração da vacina HPV deve ser adiada em caso de doenças agudas intensas ou moderadas;\n\n
-• Trombocitopenia: a vacina deve ser administrada com precaução em meninas com trombocitopenia ou qualquer distúrbio de coagulação pelo risco de ocorrer sangramento ou hematoma após a injeção intramuscular. Nessa situação, usa-se a técnica em Z;\n\n
-• Imunossupressão: a imunossupressão por doença ou medicamentos não contraindica a vacinação;\n\n
-• A vacina HPV pode ser administrada simultaneamente com outras vacinas dos Calendários Nacional de Vacinação do PNI, sem interferências na resposta de anticorpos a qualquer uma das 18 vacinas.
-• Quando a vacinação simultânea for necessária, devem ser utilizadas agulhas, seringas e regiões anatômicas distintas.\n\n\n\n
-"
-                android:textColor="@android:color/black"
-                android:textSize="14sp" />
-
 
         </LinearLayout>
     </ScrollView>

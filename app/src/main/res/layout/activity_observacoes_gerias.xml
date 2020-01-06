@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cordefundo"
+    tools:context=".vacinas.ObservacoesGeriasActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Contraindicações comuns a todos imunobiológicos"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" • A ocorrência de hipersensibilidade (reação anafilática) confirmada após o recebimento de dose anterior;\n\n
+• História de hipersensibilidade a qualquer componente dos imunobiológicos."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Situações especiais"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" • Usuários que fazem uso de terapia com corticosteroides devem ser vacinados com intervalo de, pelo menos, três meses após a suspensão da droga;\n\n
+            • Usuários infectados pelo HIV precisam de proteção especial contra as doenças imunopreveníveis, mas é necessário avaliar cada caso, considerando-se que há grande heterogeneidade de situações, desde o soropositivo (portador assintomático) até o imunodeprimido, com a doença instalada;\n\n
+• Crianças filhas de mãe com HIV positivo, menores de 18 meses de idade, mas que não apresentam alterações imunológicas e não registram sinais ou sintomas clínicos indicativos de imunodeficiência, podem receber todas as vacinas dos calendários de vacinação e as disponíveis no CRIE o mais precocemente possível;\n\n
+• Usuários com imunodeficiência clínica ou laboratorial grave não devem receber vacinas de agentes vivos atenuados;\n\n
+• O usuário que fez transplante de medula óssea (pós-transplantado) deve ser encaminhado ao CRIE de seis a doze meses após o transplante, para revacinação conforme indicação."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Adiantamento da vacinação"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" •  Situações para o adiamento da administração de um imunobiológico:\n\n
+• Usuário de dose imunossupressora de corticoide – vacine 90 dias após a suspensão ou o término do tratamento;\n\n
+• Usuário que necessita receber imunoglobulina, sangue ou hemoderivados – não vacine com vacinas de agentes vivos atenuados nas quatro semanas que antecedem e até 90 dias após o uso daqueles produtos;\n\n
+• Usuário que apresenta doença febril grave – não vacine até a resolução do quadro, para que os sinais e sintomas da doença não sejam atribuídos ou confundidos com possíveis eventos adversos relacionados à vacina."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Vacinação simultânea"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" • A vacinação simultânea consiste na administração de duas ou mais vacinas no mesmo momento em diferentes regiões anatômicas e vias de administração. De um modo geral, as vacinas dos calendários de vacinação podem ser administradas simultaneamente sem que ocorra interferência na resposta imunológica, exceto as vacinas FA, tríplice viral, contra varicela e tetra viral, que devem ser administradas com intervalo de 30 dias."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/botaotexto"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="Falsas contraindicações"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" • São exemplos de situações que caracterizam a ocorrência de falsas contraindicações:\n\n
+ • Doença aguda benigna sem febre – quando a criança não apresenta histórico de doença grave ou infecção simples das vias respiratórias superiores;\n\n
+ • Prematuridade ou baixo peso ao nascer – as vacinas devem ser administradas na idade cronológica recomendada, com exceção para a vacina BCG, que deve ser administrada nas crianças com peso ≥ 2 kg;\n\n
+ • Ocorrência de evento adverso em dose anterior de uma vacina, a exemplo da reação local (dor, vermelhidão ou inflamação no lugar da injeção);\n\n
+ • Diagnósticos clínicos prévios de doença, tais como tuberculose, coqueluche, tétano, difteria, poliomielite, sarampo, caxumba e rubéola;\n\n
+ • Doença neurológica estável ou pregressa com sequela presente;\n\n
+ • Antecedente familiar de convulsão ou morte súbita;\n\n
+ • Alergias, exceto as alergias graves a algum componente de determinada vacina (anafilaxia comprovada);\n\n
+ • História de alergia não específica, individual ou familiar;\n\n
+ • História familiar de evento adverso à vacinação (exemplo: convulsão);\n\n
+ • Uso de antibiótico, profilático ou terapêutico e antiviral;\n\n
+ • Tratamento com corticosteroides em dias alternados em dose não imunossupressora;\n\n
+ • Uso de corticosteroides inalatórios ou tópicos ou com dose de manutenção fisiológica;\n\n
+ • Quando o usuário é contato domiciliar de gestante, uma vez que os vacinados não transmitem os vírus vacinais do sarampo, da caxumba ou da rubéola;\n\n
+ • Convalescença de doenças agudas;\n\n
+ • Usuários em profilaxia pós-exposição e na reexposição com a vacina raiva (inativada). Internação hospitalar;\n\n
+ • Mulheres no período de amamentação (considere as situações de adiamento para a vacina  febre amarela).\n\n\n\n"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.ConstraintLayout>
