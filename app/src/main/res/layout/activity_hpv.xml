@@ -91,9 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Corresponde a 2 doses, com intervalo de 6 meses entre elas;\n\n
-• Meninas com idade entre 9 e 14 anos\n\n
-• Meninos com idade entre 11 e 14 anos
-"
+• Devendo ser administrada entre 9 e 14 anos de idade;"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 

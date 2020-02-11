@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT (1)\n\n
 • Hepatite B (2)\n\n
-• Tríplice viral - SCR (3)\n\n
+• Tríplice viral - SRC (3)\n\n
 • Febre Amarela - Dose única (4)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema.\n\n
-• Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, SCR, M.M.R., T.V. ou T.Viral;\n\n
+• Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, SRC, M.M.R., T.V. ou T.Viral;\n\n
 • (1). Dupla Adulto, se houver comprovação de doses anteriores:\n\n
 - 3 doses. Deverá ser administrado 1 dose de reforço após 10 anos da última dose, e agengar novo reforço para 10 anos.\n\n
 - 2 doses. Deverá ser administrado 1 dose (respeitar intervalo mínimo de 30 dias da última dose encontrada no cartão de vacinação) e agendar a próxima vacina para 10 anos.\n\n
@@ -113,4 +113,4 @@
 
     </ScrollView>
 
-</androidx.constraintlayout.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,18 +11,16 @@
         android:id="@+id/scrollView1"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,92 +33,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_margin="@dimen/botaotexto"
-                android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
                 android:background="@color/cinzavacina"
                 android:gravity="center"
-                android:text="Meninas - 9 a 14 anos"
+                android:text="9 a 14 anos"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/scrollView1" />
 
-
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • HPV – 2 doses (1)"
+                android:text=" • HPV – 2 doses (1)\n\n
+• Meningocócica C - Dose única ou Reforço"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_margin="@dimen/botaotexto"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:background="@color/cinzavacina"
-                android:gravity="center"
-                android:text="Meninos - 10 a 14 anos"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textView5" />
-
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/botaotexto"
-                android:text=" • HPV – 2 doses (1)"
-                android:textColor="@android:color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_margin="@dimen/botaotexto"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:background="@color/cinzavacina"
-                android:gravity="center"
-                android:text="Ambos os sexos - 10 a 14 anos"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textView8" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/botaotexto"
-                android:text=" • Meningocócica C - Dose única ou Reforço"
-                android:textColor="@android:color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_margin="@dimen/botaotexto"
-                android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
                 android:background="@color/cinzavacina"
                 android:gravity="center"
-                android:text="Ambos os sexos - 7 a 19 anos"
+                android:text="7 a 19 anos"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -134,7 +78,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT (2)\n\n
 • Hepatite B (3)\n\n
-• Tríplice viral - SCR (4)\n\n
+• Tríplice viral - SRC (4)\n\n
 • Febre Amarela - Dose única (5)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -146,8 +90,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_margin="@dimen/botaotexto"
-                android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
                 android:background="@color/cinzavacina"
                 android:gravity="center"
                 android:text="Observações:"
@@ -163,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Não se deve reiniciar esquema de vacinação. Se houver comprovação de qualquer número de doses anteriores, independentemente do tempo da última aplicação, deve-se dar continuidade ao esquema.\n\n
-• Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, SCR, M.M.R., T.V. ou T.Viral;\n\n
+• Considera-se vacinado contra sarampo, os usuários que apresentarem cartão de vacina contendo os registros de Tríplice Viral, Dupla Viral, Sarampo, SRC, M.M.R., T.V. ou T.Viral;\n\n
 • (1). A vacina HPV conta com 2 doses, que devem ser administradas com intervalo mínimo entre elas de 6 meses;\n\n
 • (2). Dupla Adulto, se houver comprovação de doses anteriores:\n\n
 - 3 doses. Deverá ser administrado 1 dose de reforço após 10 anos da última dose.\n\n
@@ -173,7 +117,7 @@
  ATENÇÃO: Deverá ser antecipado o reforço da vacina Dupla Adulto em casos de acidente, procedimentos cirúrgicos e gestação. Nesse caso o reforço se dará após 5 anos da última dose.\n\n
 • (3). Hepatite B, se houver comprovação doses anteriores:\n\n
 - 3 doses. Considerar vacinado.\n\n
-- 2 doses. Se a última dose administrada tiver 5 meses ou mais, administrar 1 dose.\n\n
+- 2 doses. Se a última dose administrada tiver 6 meses ou mais, administrar 1 dose.\n\n
 - 1 dose. Se a última dose tiver mais de 30 dias, deverá ser administrado 1 dose e agendar a próxima para no mínimo 6 meses após a primeira. Caso a dose encontrada no cartão tenha mais de 6 meses, o intervalo entre a dose atual e a próxima será de 60 dias.\n\n
  Se não houver comprovação de vacinação, deverá ser iniciado o esquema com 3 doses, sendo a primeira administrada no dia, a segunda 30 dias após a primeira e a terceira 6 meses após a primeira.\n\n
 • (4). Tríplice Viral, se houver comprovação de doses anteriores:\n\n
@@ -192,4 +136,4 @@
 
     </ScrollView>
 
-</androidx.constraintlayout.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

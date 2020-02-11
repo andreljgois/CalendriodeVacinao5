@@ -3,17 +3,15 @@ package com.desenvolvimentoandroid.andregois.calendriodevacinao5;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-//import android.support.design.widget.FloatingActionButton;
-//import android.support.design.widget.Snackbar;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.view.View;
-//import android.support.design.widget.NavigationView;
-
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -32,7 +30,7 @@ import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.HBActivi
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.HPVActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.InfluenzaActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.MeningoActivity;
-import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.ObservacoesGeriasActivity;
+import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.ObservacoesGeraisActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.PentaActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.Pneumo10Activity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.Pneumo23Activity;
@@ -42,7 +40,6 @@ import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.TetraVir
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.VIPActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.VOPActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.VaricelaActivity;
-import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -61,12 +58,8 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
-
-
     }
 
     @Override
@@ -128,13 +121,9 @@ public class MainActivity extends AppCompatActivity
 
             startActivity(new Intent(MainActivity.this, PentaActivity.class));
 
-        } else if (id == R.id.nav_penumo10) {
+        } else if (id == R.id.nav_penumo) {
 
-            startActivity(new Intent(MainActivity.this,Pneumo10Activity.class));
-
-        } else if (id == R.id.nav_penumo23) {
-
-            startActivity(new Intent(MainActivity.this,Pneumo23Activity.class));
+           startActivity(new Intent(MainActivity.this,Pneumo10Activity.class));
 
         } else if (id == R.id.nav_vip) {
 
@@ -194,15 +183,15 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_observacoesGerais) {
 
-            startActivity(new Intent(MainActivity.this, ObservacoesGeriasActivity.class));
+            startActivity(new Intent(MainActivity.this, ObservacoesGeraisActivity.class));
+
+        } else if (id == R.id.nav_pneumo23) {
+
+            startActivity(new Intent(MainActivity.this, Pneumo23Activity.class));
 
         } else if (id == R.id.nav_sobre) {
 
             startActivity(new Intent(MainActivity.this, SobreActivity.class));
-
-        } else if (id == R.id.nav_classificar) {
-
-            classificar();
 
         } else if (id == R.id.nav_feedback) {
 
@@ -213,6 +202,14 @@ public class MainActivity extends AppCompatActivity
             System.exit(0);
             return true;
 
+        }else if (id == R.id.nav_classificar) {
+
+            classificar();
+
+        }else if (id == R.id.nav_antirrabicaHumana) {
+
+            antirrabicaHumana();
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -222,7 +219,7 @@ public class MainActivity extends AppCompatActivity
     public void enviarEmail(){
 
         Intent email = new Intent(Intent.ACTION_SEND);
-        email.putExtra(Intent.EXTRA_EMAIL, new String[]{"agdessoftware@gmail.com"});
+        email.putExtra(Intent.EXTRA_EMAIL, new String[]{"andreljgois@gmail.com"});
         email.putExtra(Intent.EXTRA_SUBJECT, "Contato sobre o App");
         email.putExtra(Intent.EXTRA_TEXT, "Mensagem automática");
 
@@ -238,4 +235,14 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
 
     }
+
+    public void antirrabicaHumana(){
+
+        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=com.agdessoftware.vacina_antirabica_humana");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+
+    }
 }
+
+

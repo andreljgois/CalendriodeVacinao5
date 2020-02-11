@@ -10,16 +10,16 @@ import android.view.MenuItem;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.MainActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.R;
 
-public class Pneumo23Activity extends AppCompatActivity {
+public class ObservacoesGeraisActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pneumo23);
+        setContentView(R.layout.activity_observacoes_gerais);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
         getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
-        getSupportActionBar().setTitle("Pneumocócica 23");
+        getSupportActionBar().setTitle("Observações Gerais");
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)

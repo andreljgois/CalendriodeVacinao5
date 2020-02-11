@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".vacinas.Pneumo23Activity"></activity>
+        <activity android:name=".vacinas.ObservacoesGeraisActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -43,16 +45,6 @@
         <activity android:name=".vacinas.VIPActivity" />
         <activity android:name=".vacinas.VOPActivity" />
         <activity android:name=".vacinas.RotavirusActivity" />
-        <activity android:name=".vacinas.Pneumo23Activity" />
-        <activity android:name=".vacinas.ObservacoesGeriasActivity"></activity>
-
-
-            <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
-            <meta-data
-                android:name="com.google.android.gms.ads.APPLICATION_ID"
-                android:value="ca-app-pub-3963637664693042~4832033123"/>
-
-
     </application>
 
 </manifest>

@@ -59,10 +59,10 @@
                 android:id="@+id/nav_penta"
                 android:title="Pentavalente" />
             <item
-                android:id="@+id/nav_penumo10"
+                android:id="@+id/nav_penumo"
                 android:title="Pneumocócica 10" />
             <item
-                android:id="@+id/nav_penumo23"
+                android:id="@+id/nav_pneumo23"
                 android:title="Pneumocócica 23" />
             <item
                 android:id="@+id/nav_tetraviral"
@@ -87,7 +87,14 @@
                 android:title="Observações Gerais" />
         </menu>
     </item>
+    <item android:title="Outros Aplicativos">
+        <menu>
+            <item
+                android:id="@+id/nav_antirrabicaHumana"
+                android:title="Vacina Antirrábica Humana" />
 
+        </menu>
+    </item>
     <item android:title="Informações e contato">
         <menu>
             <item
