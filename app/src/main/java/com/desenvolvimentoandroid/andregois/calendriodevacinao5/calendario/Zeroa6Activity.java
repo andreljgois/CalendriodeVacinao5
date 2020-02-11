@@ -18,7 +18,7 @@ public class Zeroa6Activity extends AppCompatActivity {
         setContentView(R.layout.activity_zeroa6);
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão teste
         getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
         getSupportActionBar().setTitle("0 a 6 anos");     //Titulo para ser exibido na sua Action Bar em frente à seta
     }
