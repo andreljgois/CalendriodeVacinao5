@@ -45,6 +45,10 @@
         <activity android:name=".vacinas.VIPActivity" />
         <activity android:name=".vacinas.VOPActivity" />
         <activity android:name=".vacinas.RotavirusActivity" />
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6122972364319881~2402453167"/>
     </application>
 
 </manifest>

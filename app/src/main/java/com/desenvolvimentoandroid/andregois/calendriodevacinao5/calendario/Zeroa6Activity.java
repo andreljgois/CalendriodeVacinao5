@@ -9,8 +9,12 @@ import android.view.MenuItem;
 
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.MainActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class Zeroa6Activity extends AppCompatActivity {
+
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,10 @@ public class Zeroa6Activity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão teste
         getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
         getSupportActionBar().setTitle("0 a 6 anos");     //Titulo para ser exibido na sua Action Bar em frente à seta
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)

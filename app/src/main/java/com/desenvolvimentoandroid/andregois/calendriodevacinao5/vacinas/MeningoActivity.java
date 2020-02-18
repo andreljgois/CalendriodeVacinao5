@@ -9,8 +9,12 @@ import android.view.MenuItem;
 
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.MainActivity;
 import com.desenvolvimentoandroid.andregois.calendriodevacinao5.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class MeningoActivity extends AppCompatActivity {
+
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +24,10 @@ public class MeningoActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
         getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
         getSupportActionBar().setTitle("Meningocócica C");     //Titulo para ser exibido na sua Action Bar em frente à seta
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
