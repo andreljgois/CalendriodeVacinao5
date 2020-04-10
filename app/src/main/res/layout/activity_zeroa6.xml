@@ -177,7 +177,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Pentavalente - 3° Dose \n\n
-• Vacina Inativada Poliomielite (VIP) - 3° Dose"
+• Vacina Inativada Poliomielite (VIP) - 3° Dose\n\n
+• Tríplici Viral (SRC) - Dose zero (4)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -201,7 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Febre Amarela - Dose única (2)"
+                android:text=" • Febre Amarela - 1° Dose (2)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -227,7 +228,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Pneumocócica 10 Valente - Reforço\n\n
 • Meningocócica C - Reforço\n\n
-• Triplicivíral (SRC) - 1° Dose"
+• Tríplici Viral (SRC) - 1° Dose"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -251,10 +252,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • DTP (Triplici bacteriana) - 1° Reforço\n\n
+                android:text=" • DTP (Triplici Bacteriana) - 1° Reforço\n\n
 • Vacina Oral Poliomielite (VOP) - 1° Reforço\n\n
 • Hepatite A – Dose única\n\n
-• Tetra viral - Uma dose (3)"
+• Tetra Viral - Uma dose (3)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -278,9 +279,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • DTP (Triplici bacteriana) - 2° Reforço\n\n
+                android:text=" • DTP (Triplici Bacteriana) - 2° Reforço\n\n
 • Vacina Oral Poliomielite (VOP) - 2° Reforço\n\n
-• Varicela atenuada - 2° Dose"
+• Varicela - 2° Dose\n\n
+• Febre Amarela - Reforço (2)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView19" />
@@ -311,7 +313,8 @@
 • Para administração do reforço da vacina DTP, deverá ser respeitado o intervalo mínimo de 6 meses da última dose da vacina Pentavalente;\n\n
 • (1). Crianças com peso menor que 2 kg não devem receber a vacina BCG;\n\n
 • (2). A administração da vacina Febre Amarela, está condicionada a região de residência do usuário;\n\n
-• (3). A vacina Tetra Viral, poderá ser substituída pelas vacinas Tríplice Viral + Varicela Atenuada;\n\n\n\n
+• (3). A vacina Tetra Viral, poderá ser substituída pelas vacinas Tríplice Viral + Varicela Atenuada;\n\n
+• (4). Em situação epidemiológica de risco para o sarampo ou a rubéola, a vacinação de crianças entre 6 (seis) a 11 meses de idade pode ser temporariamente indicada, devendo-se administrar a dose zero da vacina tríplice viral. A dose zero não é considerada válida para cobertura vacinal de rotina;\n\n\n\n
 "
                 android:textColor="@android:color/black" />
 

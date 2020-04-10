@@ -92,7 +92,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Dose única a partir dos 9 meses de idade."
+                android:text=" • Crianças entre 9 (nove) meses de idade a menores de 5 (cinco) anos, devem receber 2 (duas) doses da vacina;\n\n
+• População com idade igual ou superior a 5 anos e igual ou menor a 59 anos, deverá receber apenas 1 (uma) dose;\n\n
+    Orientações para a vacinação contra febre amarela.\n\n
+     • Crianças de 9 (nove) meses a 4 (quatro) anos 11 meses e 29 dias de idade:\n\n
+        - Administrar 1(uma) dose aos 9 (nove) meses de vida e 1 (uma) dose de reforço aos 4 (quatro) anos de idade;\n\n
+     • Pessoas a partir de 5 (cinco) anos de idade, que receberam uma dose da vacina antes de completarem 5 anos de idade:\n\n
+        - Administrar uma dose de reforço, independentemente da idade em que a pessoa procure o serviço de vacinação. Respeitar intervalo mínimo de 30 dias entre a dose e o reforço.\n\n
+     • Pessoas de 5 (cinco) a 59 anos de idade, que nunca foram vacinadas ou sem comprovante de vacinação:\n\n
+        - Administrar 1 (uma) dose vacina;\n\n
+     • Pessoas com mais de 5 (cinco) anos de idade que receberam 1 dose da vacina a partir dos 5 (cinco) anos de idade:\n\n
+        - Considerar vacinado. Não administrar nenhuma dose vacina;\n\n
+     • Pessoas com 60 anos e mais, que nunca foram vacinadas ou sem comprovante de vacinação:\n\n
+        - O serviço de saúde deverá avaliar a pertinência da vacinação, levando em conta o risco da doença e o risco de eventos adversos nessa faixa etária e/ou decorrentes de comorbidades;\n\n
+     • Gestantes, que nunca foram vacinadas ou sem comprovante de vacinação:\n\n
+        - A vacinação está contraindicada para as gestantes, no entanto, na impossibilidade de adiar a vacinação, como em situações de emergência epidemiológica, vigência de surtos ou epidemias, o serviço de saúde deverá avaliar a pertinência da vacinação;\n\n
+     • Mulheres nunca vacinadas ou sem comprovante de vacinação, que estejam amamentando crianças com até 6 (seis) meses de vida:\n\n
+        - A vacinação não está indicada, devendo ser adiada até a criança completar 6 (seis) meses de vida. Na impossibilidade de adiar a vacinação, como em situações de emergência epidemiológica, vigência de surtos ou epidemias, o serviço de saúde deverá avaliar a pertinência da vacinação. Importante ressaltar que previamente à vacinação, o aleitamento materno deve ser suspenso por 28 dias (mínimo de 10 dias), com acompanhamento do serviço de Banco de Leite de referência. Em caso de mulheres que estejam amamentando e receberam a vacina de forma inadvertida, o aleitamento materno deve ser suspenso preferencialmente por 28 dias após a vacinação (com um mínimo de 10 dias);\n\n
+     • Viajantes Internacionais:\n\n
+        - Para efeito de emissão do Certificado Internacional de Vacinação ou Profilaxia (CIVP) seguir o Regulamento Sanitário Internacional (RSI) que recomenda uma única dose na vida. O viajante deverá se vacinar pelo menos, 10 dias antes da viagem;
+"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -159,9 +178,16 @@
 • A informação atualizada sobre as áreas com indicação da vacinação, bem como vacinação para viajantes, estão disponíveis no site do Ministério da Saúde:\n\n
 • Esta vacina se insere no conjunto das vacinas recomendadas segundo o Regulamento Sanitário Internacional (RSI/2005), que prevê a possibilidade de exigência do Certificado Internacional de Vacinação e Profilaxia (CIVP), documento que comprova a vacinação contra a febre amarela e/ou outras doenças;\n\n
 • As anotações feitas pelo serviço de saúde no comprovante de vacinação (tais como: data da administração, lote, validade da vacina, assinatura legível e carimbo do vacinador) são imprescindíveis para a emissão do Certificado Internacional de Vacinação e Profilaxia (CIVP).\n\n
+• Vacinação Simultânea:\n\n
+    • Em crianças menores de 2 (dois) anos de idade:\n\n
+        - A vacina febre amarela pode ser administrada simultaneamente com a maioria das vacinas do Calendário Nacional de Vacinação, sem necessidade de qualquer intervalo, exceto com as vacinas tríplice viral (sarampo, caxumba e rubéola) ou tetra viral (sarampo, caxumba, rubéola e varicela) em crianças menores de 2 (dois) anos de idade. Neste caso, deve ser respeitado o intervalo de 30 dias entre as duas vacinas (mínimo de 15 dias), salvo em circunstâncias específicas, a serem discutidas entre as três esferas do Sistema Único de Saúde;\n\n
+        - Em situações onde exista o risco epidemiológico concomitante para febre amarela e os vírus contidos na vacina tríplice viral, o risco da não vacinação é maior que a possibilidade da diminuição da resposta imune. Dessa forma a vacinação simultânea deverá ser realizada sem levar em conta o intervalo entre as doses;\n\n
+        - Para a criança que recebeu anteriormente as vacinas tríplice viral e febre amarela, não há evidências de interferência na imunogenicidade entre elas, as duas poderão ser administradas simultaneamente ou sem intervalo mínimo entre as doses. Se a criança recebeu apenas uma das vacinas (tríplice viral ou febre amarela), estabelecer preferivelmente o intervalo de 30 dias entre as doses (mínimo 15 dias);\n\n
+        - Ressalta-se que a dose administrada deverá ser considerada válida e a dose de reforço deverá ser agendada conforme o Calendário Nacional de Vacinação vigente, de modo a respeitar o intervalo mínimo de 30 dias entre as doses;\n\n
+    • Para crianças a partir de 2 (dois) anos de idade e adultos em qualquer idade:\n\n
+        - A vacina febre amarela pode ser administrada de forma simultânea com as vacinas tríplice viral, tetra viral e varicela, visando aproveitar a oportunidade da visita aos serviços para atualização da situação vacinal. No entanto, se não forem administradas simultaneamente, essas vacinas devem ser administradas com intervalo mínimo de 30 dias;\n\n
 • Em situação de emergência epidemiológica:\n\n
- - No caso de vacinação de crianças, a dose inicial deve ser antecipada para 6 meses de idade, sendo esta dose considerada válida para a rotina de vacinação da criança;\n\n
-• Não administre tal vacina simultaneamente com a vacina tríplice viral (sarampo, caxumba e rubéola) e/ou tetra viral (sarampo, caxumba, rubéola e varicela) e/ou varicela, estabelecendo o intervalo mínimo de 30 dias, salvo em situações especiais que impossibilitem manter o intervalo indicado;\n\n\n\n"
+ - No caso de vacinação de crianças, a dose inicial deve ser antecipada para 6 meses de idade, sendo esta dose considerada válida para a rotina de vacinação da criança;\n\n\n\n"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
         </LinearLayout>

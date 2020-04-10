@@ -67,11 +67,8 @@
                 android:text=" • A vacina HPV é contraindicada e, portanto, não deve ser administrada nas adolescentes:\n\n
 • Com hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina;\n\n
 • Com história de hipersensibilidade imediata grave a levedura; ou,\n\n
-• Que desenvolveram sintomas indicativos de hipersensibilidade grave após receber uma dose da vacina HPV.\n\n
-• A vacina não é indicada em gestantes, uma vez que não há estudos conclusivos em mulheres grávidas até o presente momento;\n\n
-• Se a menina engravidar após o início do esquema vacinal, as doses subsequentes deverão ser adiadas até o período pós-parto;\n\n
-• Caso a vacina seja administrada inadvertidamente durante a gravidez, nenhuma intervenção adicional é necessária, somente o acompanhamento pré-natal adequado."
-                android:textColor="@android:color/black"
+• Que desenvolveram sintomas indicativos de hipersensibilidade grave após receber uma dose da vacina HPV;\n\n
+• Esta vacina é contraindicada durante a gestação. Caso a mulher engravide após a primeira dose da vacina HPV ou receba a vacina inadvertidamente durante a gravidez, suspender a dose subsequente e completar o esquema vacinal, preferencialmente em até 45 dias após o parto. Nestes casos nenhuma intervenção adicional é necessária, somente o acompanhamento do pré-natal;"                android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
             <TextView
@@ -91,7 +88,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Corresponde a 2 doses, com intervalo de 6 meses entre elas;\n\n
-• Devendo ser administrada entre 9 e 14 anos de idade;"
+• Devendo ser administrada entre 9 e 14 anos de idade;\n\n
+• Pessoas que receberam a D1 e não completaram o esquema vacinal, mesmo após o período de seis meses, devem receber a D2;\n\n
+• Pessoas que iniciaram a primeira dose da vacina aos 14 anos de idade, a segunda dose deverá ser administrada com um intervalo mínimo de seis meses e máximo de até 12 meses;\n\n
+• Pessoas que receberam a D2 com menos de seis meses após terem recebido a D1, devem receber uma terceira dose para completar o esquema, visto que a resposta imune está comprometida pelo espaço de tempo entre a primeira e a segunda dose;\n\n
+• Não administrar D1 para adolescentes maiores de 14 anos, 11 meses e 29 dias (15 anos). Para adolescentes de 15 anos, só deverá ser completado esquema vacinal (D2);
+"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -159,7 +161,8 @@
 • Doenças agudas intensas ou moderadas: a administração da vacina HPV deve ser adiada em caso de doenças agudas intensas ou moderadas;\n\n
 • Trombocitopenia: a vacina deve ser administrada com precaução em meninas com trombocitopenia ou qualquer distúrbio de coagulação pelo risco de ocorrer sangramento ou hematoma após a injeção intramuscular. Nessa situação, usa-se a técnica em Z;\n\n
 • Imunossupressão: a imunossupressão por doença ou medicamentos não contraindica a vacinação;\n\n
-• A vacina HPV pode ser administrada simultaneamente com outras vacinas dos Calendários Nacional de Vacinação do PNI, sem interferências na resposta de anticorpos a qualquer uma das 18 vacinas.
+• Mulheres que estão amamentando podem ser vacinadas com a vacina HPV;;\n\n
+• A vacina HPV pode ser administrada simultaneamente com outras vacinas dos Calendários Nacional de Vacinação do PNI, sem interferências na resposta de anticorpos a qualquer uma das 18 vacinas.\n\n
 • Quando a vacinação simultânea for necessária, devem ser utilizadas agulhas, seringas e regiões anatômicas distintas.\n\n\n\n
 "
                 android:textColor="@android:color/black"

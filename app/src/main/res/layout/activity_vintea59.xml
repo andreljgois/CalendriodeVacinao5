@@ -51,7 +51,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT (1)\n\n
 • Hepatite B (2)\n\n
-• Tríplice viral - SRC (3)\n\n
+• Tríplice Viral - SRC (3)\n\n
 • Febre Amarela - Dose única (4)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -96,10 +96,14 @@
 - 2 doses ou mais, não vacinar.\n\n
 - 1 dose, administrar mais 1 dose. Respeitando intervalo mínimo de 30 dias da dose anterior.\n\n
  Se não houver comprovação de vacinas anteriores, administra 1ª dose e agendar a 2ª para 60 dias.\n\n
- Entre 30 anos e 49 anos:\n\n
+ Entre 30 anos e 59 anos:\n\n
 - 1 dose ou mais, não vacinar.\n\n
  Se não houver comprovação de vacinas anteriores, administra uma única dose.\n\n
- A partir de 50 anos de idade, não vacinar.\n\n
+  Trabalhadores da saúde:\n\n
+- 2 doses ou mais, não vacinar.\n\n
+- 1 dose, administrar mais 1 dose. Respeitando intervalo mínimo de 30 dias da dose anterior.\n\n
+ Se não houver comprovação de vacinas anteriores, administra 1ª dose e agendar a 2ª para 60 dias.\n\n
+ A partir de 60 anos de idade, não vacinar.\n\n
  ATENÇÃO: Deverá ser respeitado o intervalo mínimo de 30 dias entre as vacinas Tríplice Víral e Febre Amarela.\n\n
 • (4). A administração da vacina Febre Amarela, está condicionada a região de residência do usuário;\n\n\n\n
 "

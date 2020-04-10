@@ -45,10 +45,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text="O aplicativo Calendário de Vacinação, foi desenvolvido visando atender à necessidade dos profissionais e estudantes das diversas áreas da saúde, sobre a atualização nas constantes melhorias do Programa Nacional de Imunização.\n\n
-Ele também serve de orientação para qualquer pessoa que busque ampliar seus conhecimentos acerca das vacinas disponibilizadas pelo Governo Federal, através das Unidades Básicas de Saúde distribuídas e todo o território brasileiro.\n\n
-Foi usado como fonte bibliográfica o Manual de Normas e Procedimentos para Vacinação do Ministério da Saúde – ano 2014, bem como as publicações e recomendações disponibilizadas no site do Ministério da Saúde.\n\n
-Atualizado em fevereiro de 2020."
+                android:text="     O aplicativo Calendário de Vacinação, foi desenvolvido visando atender à necessidade dos profissionais e estudantes das diversas áreas da saúde, sobre a atualização nas constantes melhorias do Programa Nacional de Imunização.\n\n
+    Ele também serve de orientação para qualquer pessoa que busque ampliar seus conhecimentos acerca das vacinas disponibilizadas pelo Governo Federal, através das Unidades Básicas de Saúde distribuídas e todo o território brasileiro.\n\n
+    Foi usado como fonte bibliográfica o Manual de Normas e Procedimentos para Vacinação do Ministério da Saúde – ano 2014, bem como as publicações e recomendações disponibilizadas no site do Ministério da Saúde.\n\n
+    Atualizado em abril de 2020."
                 android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -76,8 +76,8 @@ Atualizado em fevereiro de 2020."
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Auxiliar de enfermagem, atuando no Programa de Saúde da Família do município de Aracaju/SE desde 2004.\n\n
-Atualmente, estudante de Analise e Desenvolvimento de Sistemas, e tendo como objetivo informatizar diversos processos de enfermagem, buscando facilitar e otimizar a prestação de serviços.\n\n\n\n"
+                android:text="     Auxiliar de enfermagem, atuando no Programa de Saúde da Família do município de Aracaju/SE desde 2004.\n\n
+    Atualmente, estudante de Analise e Desenvolvimento de Sistemas, e tendo como objetivo informatizar diversos processos de enfermagem, buscando facilitar e otimizar a prestação de serviços.\n\n\n\n"
                 android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

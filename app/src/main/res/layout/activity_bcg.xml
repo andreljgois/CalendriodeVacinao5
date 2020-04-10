@@ -71,7 +71,8 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:text=" • Usuários a partir dos 5 anos de idade portadores de HIV, mesmo que assintomáticos e sem sinais de imunodeficiência."
+                android:text=" • Gestantes;\n\n
+• Usuários a partir dos 5 anos de idade portadores de HIV, mesmo que assintomáticos e sem sinais de imunodeficiência."
                 android:textColor="@android:color/black" />
 
             <TextView
@@ -97,11 +98,14 @@
                 android:text=" • Dose única, o mais precocemente possível, preferencialmente nas primeiras 12 horas após o nascimento, ainda na maternidade;\n\n
 • Na rotina, a vacina pode ser administrada em crianças até 4 anos, 11 meses e 29 dias;\n\n
 • No caso de contato intradomiciliar de paciente com diagnóstico de hanseníase que não apresenta sinais e sintomas, independentemente de ser paucibacilar (PB) ou multibacilar (MB), o esquema de vacinação deve considerar a história vacinal do contato da seguinte forma:\n\n
-- Contatos intradomiciliares com menos de 1 ano de idade comprovadamente vacinados não necessitam da administração de outra dose de BCG.\n\n
-- Para contatos intradomiciliares com mais de 1 ano de idade, adote o seguinte esquema:\n\n
- - Contato domiciliar sem cicatriz vacinal ou na incerteza da existência de cicatriz vacinal: administre uma dose de BCG;\n\n
- - Contato domiciliar comprovadamente vacinado com a primeira dose: administre outra dose de BCG (mantenha o intervalo mínimo de seis meses entre as doses);\n\n
- - Contato domiciliar com duas doses/cicatrizes: não administre nenhuma dose adicional.
+  Menores de 1 (um) ano de idade:\n\n
+    - Não vacinados: administrar 1 (uma) dose de BCG;\n
+    - Comprovadamente vacinados que apresentem cicatriz vacinal: não administrar outra dose de BCG;\n
+    - Comprovadamente vacinados que não apresentem cicatriz vacinal: administrar 1 (uma) dose de BCG 6 (seis) meses após a última dose;\n\n
+  A partir de 1 (um) ano de idade:\n\n
+    - Sem cicatriz: administrar 1 (uma) dose;\n
+    - Vacinados com 1 (uma) dose: administrar outra dose de BCG, com intervalo mínimo de 6 (seis) meses após a dose anterior; \n
+    - Vacinados com 2 (duas) doses/cicatrizes: não administre nenhuma dose adicional.
 "
                 android:textColor="@android:color/black" />
 
@@ -176,11 +180,14 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:text=" • A administração da vacina BCG deve ser adiada quando a criança apresentar peso inferior a 2 kg, devido à escassez do tecido cutâneo (panículo adiposo), e quando apresentar lesões graves de pele;\n\n
-• A presença da cicatriz vacinal é considerada como dose para efeito de registro, independentemente do tempo transcorrido desde a vacinação até o aparecimento da cicatriz;\n\n
-• Ao administrar dose adicional em contato de paciente de hanseníase, respeite o intervalo de seis meses da dose anterior;\n\n
+• A comprovação de vacinação BCG pode ser feita através de uma das três formas seguintes: \n\n
+    - Registro na caderneta de vacinação;\n
+    - Presença de cicatriz vacinal;\n
+    - Palpação de nódulo no deltoide direito, na ausência de cicatriz.;\n\n
+• Ao administrar dose adicional em contato de paciente de hanseníase, respeite o intervalo de 6 meses da dose anterior;\n\n
 • Em gestante contato de indivíduo portador de hanseníase, a vacinação com BCG deve ser adiada para depois do parto;\n\n
-• A vacina pode ser administrada simultaneamente com as demais vacinas dos calendários de vacinação do Ministério da Saúde;\n\n
-• De acordo com a NOTA INFORMATIVA Nº 10/2019 do Ministério da Saúde, o Programa Nacional de Imunização (PNI) NÃO indica a revacinação com BCG em criaças que não desenvolveram cicatriz após a vacinação administrada ao nascer;\n\n\n\n "
+• Em pessoas hospitalizadas com comprometimento do estado geral, a vacinação deve ser adiada até a resolução do quadro clínico.;\n\n
+• A vacina pode ser administrada simultaneamente com as demais vacinas dos calendários de vacinação do Ministério da Saúde;\n\n\n\n "
                 android:textColor="@android:color/black" />
 
 

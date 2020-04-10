@@ -78,7 +78,7 @@
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • Dupla Adulto - dT (2)\n\n
 • Hepatite B (3)\n\n
-• Tríplice viral - SRC (4)\n\n
+• Tríplice Viral - SRC (4)\n\n
 • Febre Amarela - Dose única (5)"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"

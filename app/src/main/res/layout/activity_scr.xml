@@ -95,9 +95,11 @@
  - Para indivíduos de 12 meses a 29 anos de idade: administre duas doses conforme a situação vacinal encontrada;\n\n
  - A primeira dose (aos 12 meses de idade) deve ser com a vacina tríplice viral e a segunda dose (aos 15 meses de idade) deve ser com a vacina tetra viral, para as crianças que já tenham recebido a 1ª dose da vacina tríplice viral;\n\n
  - Para as crianças acima de 15 meses de idade não vacinadas, administre a vacina tríplice viral observando o intervalo mínimo de 30 dias entre as doses;\n\n
- - Considere vacinada a pessoa que comprovar duas doses de vacina com componente de sarampo, caxumba e rubéola;\n\n
- - Para indivíduos de 30 a 49 anos de idade: administre uma dose conforme a situação vacinal encontrada;\n\n
- - Considere vacinada a pessoa que comprovar uma dose de vacina com componente de sarampo, caxumba e rubéola ou sarampo e rubéola;\n\n
+ - Considere vacinada a pessoa com idade entre 12 meses e 29 anos, que comprovar duas doses de vacina com componente de sarampo, caxumba e rubéola;\n\n
+ - Para indivíduos de 30 a 59 anos de idade: administre uma dose conforme a situação vacinal encontrada;\n\n
+ - Considere vacinada a pessoa com idade entre 30 e 59 anos, que comprovar uma dose de vacina com componente de sarampo, caxumba e rubéola;\n\n
+ - Trabalhadores de saúde independentemente da idade devem receber 2 (duas) doses de tríplice viral, conforme situação vacinal encontrada, observando o intervalo mínimo de 30 dias entre as doses;\n\n
+ - Considerar vacinado o trabalhador de saúde que comprovar 2 (duas) doses de vacina tríplice viral.\n\n
 • Em situação de bloqueio vacinal em crianças menores de 12 meses, administre uma dose entre 6 meses e 11 meses de idade e mantenha o esquema vacinal;\n\n
 • Mulheres em idade fértil devem evitar a gravidez até um mês após a vacinação.
 "
@@ -167,7 +169,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Não administre tal vacina simultaneamente com a vacina febre amarela (atenuada), estabelecendo o intervalo mínimo de 30 dias, salvo em situações especiais que impossibilitem manter o intervalo indicado.\n\n\n\n"
+                android:text=" • Esta vacina pode ser administrada simultaneamente com as demais vacinas do calendário de vacinação, exceto a vacina febre amarela em crianças menores de 2 (dois) anos de idade. Neste caso, deve ser respeitado o intervalo de 30 dias entre as duas vacinas (mínimo de 15 dias), salvo em circunstâncias específicas, a serem discutidas entre as três esferas do Sistema Único de Saúde\n\n
+• Em situações onde exista o risco epidemiológico concomitante para febre amarela e os vírus contidos na vacina tríplice viral, o risco da não vacinação é maior que a possibilidade da diminuição da resposta imune. Dessa forma a vacinação simultânea deverá ser realizada sem levar em conta o intervalo entre as doses.\n\n
+• Para a criança que recebeu anteriormente as vacinas tríplice viral e febre amarela, não há evidências de interferência na imunogenicidade entre elas, as duas poderão ser administradas simultaneamente ou sem intervalo mínimo entre as doses. Se a criança recebeu apenas uma das vacinas (tríplice viral ou febre amarela), estabelecer preferivelmente o intervalo de 30 dias entre as doses (mínimo 15 dias).\n\n
+• Caso a vacina tríplice viral não seja administrada simultaneamente com a vacina varicela (atenuada), considerar o intervalo mínimo de 30 dias entre as doses, salvo em situações que impossibilitem manter este intervalo (com um mínimo de 15 dias).\n\n\n\n"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
