@@ -14,7 +14,6 @@ import com.google.android.gms.ads.AdView;
 
 public class BCGActivity extends AppCompatActivity {
 
-    String testando = "testando";
     private AdView mAdView;
 
     @Override
