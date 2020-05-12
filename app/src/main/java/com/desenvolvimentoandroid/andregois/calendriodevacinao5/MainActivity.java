@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.desenvolvimentoandroid.andregois.calendriodevacinao5.vacinas.MeningoACWYActivity;
 import com.google.android.material.navigation.NavigationView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -151,6 +152,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_meningo) {
 
           startActivity(new Intent(MainActivity.this, MeningoActivity.class));
+
+        } else if (id == R.id.nav_meningoACWY) {
+
+            startActivity(new Intent(MainActivity.this, MeningoACWYActivity.class));
 
         } else if (id == R.id.nav_fa) {
 

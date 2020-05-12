@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vacinas.MeningoActivity"
-    android:background="@color/cordefundo">
-
+    android:background="@color/cordefundo"
+    tools:context=".vacinas.MeningoACWYActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="8dp"
         android:background="#f9f1d0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Está indicada para a prevenção da doença sistêmica causada pela Neisseria meningitidis do sorogrupo C;"
+                android:text=" • Está indicada para imunização ativa de crianças, adolescentes e adultos com risco de exposição a Neisseria meningitidis dos grupos A, C, W-135 e Y, para prevenir doença meningocócica invasiva;"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -65,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • Hipersensibilidade ao princípio ativo ou a qualquer um dos excipientes da vacina."
+                android:text=" • A vacina é contraindicada para pacientes com hipersensibilidade a qualquer um dos componentes da vacina, incluindo o toxoide diftérico."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -85,8 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
-                android:text=" • O esquema corresponde a duas doses e um reforço, administradas aos 3 e 5 meses de idade, e 1 ano de idade respectivamente. O intervalo ideal entre as doses iniciais deve ser de 60 dias, já o intervalo minímo é de 30 dias entre as doses;\n\n
-• Em crianças entre 12 meses e 4 anos de idade sem comprovação vacinal ou com esquema incompleto, administre uma única dose;"
+                android:text=" • O Esquema consiste em dose única para adolescentes entre 11 e 12 anos de idade."
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -107,9 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/botaotexto"
                 android:text=" • O volume da vacina a ser administrado é de 0,5 ml;\n\n
-• A vacina é administrada por via intramuscular profunda;\n\n
-• Administre a vacina em crianças menores de 2 anos no músculo vasto lateral da coxa e, nos maiores de dois anos, no deltoide;
-"
+• A vacina é administrada por via intramuscular profunda;"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -138,6 +134,7 @@
 
         </LinearLayout>
     </ScrollView>
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="0dp"
